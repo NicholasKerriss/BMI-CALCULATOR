@@ -17,6 +17,7 @@ h1 {
   align-items: center;
   text-align: center;
   margin-left: 10px;
+  font-size: 26px;
 }
 
 p {
@@ -43,6 +44,7 @@ label {
 }
 
 button {
+  margin: 8px 0;
   cursor: pointer;
   font-size: 18px;
   border-radius: 6px;
@@ -60,4 +62,19 @@ button:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.container p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.table {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.table th {
+  display: block;
+  margin-bottom: 10px;
 }
